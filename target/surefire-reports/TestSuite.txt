@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.322 s <<< FAILURE! - in TestSuite
+BestBuyTest.LoginTest.login  Time elapsed: 20.739 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.xpath: //span[@data-automation='sign-in-text']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: RemoteWebDriver
+	at BestBuyTest.LoginTest.login(LoginTest.java:21)
+
+BestBuyTest.LoginTest.closeDriver  Time elapsed: 20.795 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.86)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a3e377e2b8e5164b74b6e8b5960e860, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55471/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a3e377e2b8e5164b74b6e8b5960e860
+
